@@ -468,7 +468,7 @@
                             {@const relationType = getRelationshipTypeForColumn(column)}
                             {#if minMaxSize}
                                 {#if minMaxSize.tooltip}
-                                    <Tooltip portal maxWidth="fit-content" placement="top">
+                                    <Tooltip portal maxWidth="300px" placement="top">
                                         <Typography.Caption
                                             variant="400"
                                             color="--fgcolor-neutral-tertiary">
